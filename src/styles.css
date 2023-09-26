@@ -1,0 +1,21 @@
+@import "rsuite/dist/styles/rsuite-default.css";
+@import "xterm/css/xterm.css";
+
+.App {
+  font-family: "Roboto";
+  padding: 30px;
+}
+
+header {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+header > input {
+  flex-grow: 1;
+}
+
+header > button {
+  flex-shrink: 0;
+  margin-left: 10px;
+}
